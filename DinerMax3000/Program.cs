@@ -25,6 +25,17 @@ namespace DinerMax3000Console
 
             Order hungryGuestOrder = new Order();
 
+            for(int x = 0; x < summerMenu.items.Count(); x++)
+            {
+                hungryGuestOrder.AddToOrder(summerMenu.items[x]);                
+            }
+
+            foreach(MenuItem item in outsideDrinks.items)
+            {
+                hungryGuestOrder.AddToOrder(item);
+            }
+
+            Console.WriteLine("Order total:{0}", hungryGuestOrder.Total);
         }
 
 

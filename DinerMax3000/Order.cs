@@ -8,11 +8,24 @@ namespace DinerMax3000Console
 {
     class Order
     {
-        List<MenuItem> OrderList = new List<MenuItem>();
+        public List<MenuItem> OrderList = new List<MenuItem>();
 
         public void AddToOrder(MenuItem menuItem)
         {
             OrderList.Add(menuItem);
+        }
+
+        public double Total
+        {
+            get
+            {
+                double calculatedTotal = 0;
+                foreach(MenuItem item in OrderList)
+                {
+                    calculatedTotal += item.Price;
+                }
+                return calculatedTotal;
+            }
         }
     }
 }
