@@ -36,6 +36,16 @@ namespace DinerMax3000Console
             }
 
             Console.WriteLine("Order total:{0}", hungryGuestOrder.Total);
+
+            try
+            {
+                outsideDrinks.AddMenuItem("Beer", "Helping ugly people have sex since 1950", 0);
+            }
+            catch(Exception thrownException)
+            {
+                Console.WriteLine(thrownException.Message);
+            }
+            
         }
 
 
