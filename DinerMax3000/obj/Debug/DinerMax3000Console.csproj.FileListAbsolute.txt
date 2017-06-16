@@ -1,0 +1,8 @@
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\bin\Debug\DinerMax3000.exe.config
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\bin\Debug\DinerMax3000.exe
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\bin\Debug\DinerMax3000.pdb
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\bin\Debug\DinerMax3000BusinessLayer.dll
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\bin\Debug\DinerMax3000BusinessLayer.pdb
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\obj\Debug\DinerMax3000Console.csprojResolveAssemblyReference.cache
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\obj\Debug\DinerMax3000.exe
+C:\Users\Taylan\Source\Repos\DinerMax3000\DinerMax3000\obj\Debug\DinerMax3000.pdb

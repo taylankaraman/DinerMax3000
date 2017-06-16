@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DinerMax3000Console
+namespace DinerMax3000.Business
 {
-    class Order
+    public class Order
     {
         public List<MenuItem> OrderList = new List<MenuItem>();
 
